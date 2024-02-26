@@ -5,17 +5,17 @@ import packages.commands.MOV_R;
 import java.util.ArrayList;
 
 enum CommandType {
-    MOV_R, MOV_I, ADD
+    STOP, MOV_R, MOV_I, ADD
 }
 
 public class AI {
     public static Command[] memory;
+    public String status = "STOPPED";
     private final String name;
     private final ArrayList<Command> commands;
     private int programCounter;
 
     public AI(String config) {
-        // [Sleepy, MOV_R,5,2,ADD,10,-4]
         memory = new Command[32];
         this.commands = new ArrayList<>();
         this.name = config.split(" ")[0];
