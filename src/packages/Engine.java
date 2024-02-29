@@ -83,7 +83,7 @@ public class Engine {
         return turnOrder.get(index).getProgramCounter();
     }
 
-    public static void goNext(AI currAI) {
+    public static void nextAI(AI currAI) {
         String status = currAI.status;
         if (status.equals("STOPPED")) {
             if (turnIndex == turnOrder.size() - 1) turnIndex = 0;
@@ -98,7 +98,7 @@ public class Engine {
         for (int i = 0; i < iterations && !turnOrder.isEmpty(); i++) {
             AI currAI = turnOrder.get(turnIndex);
             currAI.execute();
-            goNext(currAI);
+            nextAI(currAI);
         }
     }
 

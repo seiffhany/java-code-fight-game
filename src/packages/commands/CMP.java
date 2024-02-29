@@ -20,11 +20,11 @@ public class CMP extends Command {
         int firstNum = AI.memory[firstIndex].source;
         int secondNum = AI.memory[secondIndex].target;
 
-        Engine.goNext(myAI);
+        Engine.nextAI(myAI);
         // myAI.incrementProgramCounter();
         if (firstNum != secondNum) {
             // skip next command
-            Engine.goNext(myAI);
+            Engine.nextAI(myAI);
             // myAI.incrementProgramCounter();
         }
     }
