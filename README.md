@@ -1,6 +1,6 @@
 # Memory War
 
-**Memory War** is a text-based, turn-based programming game inspired by the classic "Core War." In this game, multiple artificial intelligences (AIs) compete within a shared memory space by executing commands to dominate their opponents. The game emphasizes strategy, programming logic, and competition.
+**Memory War** is a text-based, turn-based programming game. In this game, multiple artificial intelligences (AIs) compete within a shared memory space by executing commands to dominate their opponents. The game emphasizes strategy, programming logic, and competition.
 
 ## Game Flow
 
