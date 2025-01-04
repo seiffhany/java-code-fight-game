@@ -21,7 +21,7 @@
 - Rounds continue until one AI remains active or all are stopped.
 
 ### 3. Interaction Commands
-Users interact with the game using predefined commands:
+Users interact with the game using predefined commands ([more on user commands](#user-commands)):
 - **`add-ai`**: Register an AI program.
 - **`start-game`**: Start the game with the registered AIs.
 - **`next`**: Execute a specified number of commands across all AIs.
