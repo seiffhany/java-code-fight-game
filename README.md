@@ -2,6 +2,7 @@
 
 **Memory War** is a text-based, turn-based programming game. In this game, multiple artificial intelligences (AIs) compete within a shared memory space by executing commands to dominate their opponents. The game emphasizes strategy, programming logic, and competition.
 
+This project was provided by [KIT - Karlsruher Institut für Technologie](https://www.kit.edu/).
 ## Game Flow
 
 ### 1. Initialization Phase
@@ -268,7 +269,7 @@ JMP 0 0
 <div style="user-select: none; -webkit-user-select: none; -ms-user-select: none;">
 <pre>
  1 | %> java CodeFight 32 # ? _ ^ G g B b  
- 2 | Welcome to CodeFight 2024. Enter'help' for more details.  
+ 2 | Welcome to CodeFight 2024. Enter 'help' for more details.  
  3 | > add-ai Dwarf ADD_R,4,3,MOV_I,2,2,JMP,-2,0,STOP,0,0  
  4 | Dwarf  
  5 | > add-ai Sleepy ADD,10,-1,MOV_I,2,-1,JMP,-2,0,STOP,13,37  
