@@ -1,6 +1,6 @@
-# Code Fight
+# Memory War
 
-**Code Fight** is a text-based, turn-based programming game inspired by the classic "Core War." In this game, multiple artificial intelligences (AIs) compete within a shared memory space by executing commands to dominate their opponents. The game emphasizes strategy, programming logic, and competition.
+**Memory War** is a text-based, turn-based programming game inspired by the classic "Core War." In this game, multiple artificial intelligences (AIs) compete within a shared memory space by executing commands to dominate their opponents. The game emphasizes strategy, programming logic, and competition.
 
 ## Game Flow
 
@@ -36,7 +36,7 @@ Users interact with the game using predefined commands ([more on user commands](
 
 ---
 
-**Code Fight** provides a fun and challenging platform where players can create, test, and compete with their AI programs in a dynamic memory space. Let the competition begin!
+**Memory War** provides a fun and challenging platform where players can create, test, and compete with their AI programs in a dynamic memory space. Let the competition begin!
 
 
 ## Project Structure
